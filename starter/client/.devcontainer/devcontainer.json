@@ -1,0 +1,19 @@
+{
+  "name": "Mern-starter Frontend",
+  "dockerComposeFile": [
+		"../../docker-compose-vscode.yml"
+  ],
+  "appPort": 3000,
+  "settings": {
+    "workbench.colorTheme": "Tokyo Night Light",
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "enkia.tokyo-night"
+  ],
+  "workspaceFolder": "/workspace/client",
+  "service": "client",
+  "postCreateCommand": "yarn install",
+  "shutdownAction": "stopCompose"
+}
+
