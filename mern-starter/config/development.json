@@ -1,0 +1,6 @@
+{
+
+  "proxy": "http://localhost:3001",
+  "db": "mongodb://localhost:27017/my_local_db"
+  
+}

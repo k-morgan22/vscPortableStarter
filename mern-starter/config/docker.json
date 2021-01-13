@@ -1,0 +1,6 @@
+{
+
+  "proxy": "http://app-backend:3001",
+  "db": "mongodb://app-db:27017/my_local_db"
+  
+}
