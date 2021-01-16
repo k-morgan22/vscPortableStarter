@@ -1,5 +1,4 @@
 const createProxyMiddleware = require('http-proxy-middleware');
-process.env.NODE_CONFIG_DIR = "../config/"
 const config = require("config");
 
 
